@@ -1,2 +1,1 @@
-# jarvis-os
-its still unser construction 
+# NeonGrid-OS
