@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-black text-green-400;
+}
+
+@keyframes animate-fade-blink {
+  0%, 100% { opacity: 0.1; }
+  50% { opacity: 1; }
+}
+
+.animate-fade-blink {
+  animation: animate-fade-blink 1s ease-in-out infinite;
+}
+
+@keyframes gradientGlow {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.animate-gradient-glow {
+  animation: gradientGlow 8s ease-in-out infinite;
+  background-size: 200% 200%;
+}
